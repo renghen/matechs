@@ -6,5 +6,6 @@
     "paths": {
       "@matechs/*": ["packages/*/src"]
     }
-  }
+  },
+  "include": ["src/**/*", "tests/**/*"]
 }
