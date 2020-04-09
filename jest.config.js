@@ -1,5 +1,9 @@
 module.exports = {
   rootDir: './',
+  testRegex: '/tests/.*',
+  transform: {
+    '^.+\\.(ts|tsx)$': 'ts-jest'
+  },
   clearMocks: true,
   collectCoverage: true,
   coverageDirectory: 'coverage',

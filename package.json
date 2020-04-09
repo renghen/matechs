@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@matechs/effect": "^4.0.0",
+    "@types/jest": "^25.2.1",
     "fp-ts": "^2.5.3",
     "fp-ts-contrib": "^0.1.15",
     "retry-ts": "^0.1.2",
@@ -12,6 +13,7 @@
   },
   "devDependencies": {
     "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   }
